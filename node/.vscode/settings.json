@@ -1,0 +1,20 @@
+{
+	"files.exclude": {
+		"package.json": true,
+		"public": true,
+		".env": true,
+		"liara.json": true,
+		"server.js": true,
+		"database": true,
+
+		".gitignore": true,
+		".gitattributes": true,
+		"node_modules": true,
+		"yarn.lock": true,
+		"package-lock.json": true,
+		"**/note.txt": true,
+		"ProVersion": true,
+		"README.md": true
+	},
+	"extensions.ignoreRecommendations": true
+}

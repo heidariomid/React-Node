@@ -1,0 +1,5 @@
+{
+	"platform": "node",
+	"app": "tiktok",
+	"port": 5000
+}
