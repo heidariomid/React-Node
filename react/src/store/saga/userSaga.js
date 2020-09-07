@@ -1,7 +1,7 @@
-import {takeEvery, put, call} from 'redux-saga/effects';
-import Axios from '../../Https/axios';
+import {takeEvery, put} from 'redux-saga/effects';
 import {actions} from '../actions';
-const axios = new Axios();
+// import Axios from '../../Https/axios';
+// const axios = new Axios();
 
 //TODO FETCH Worker
 function* fetchUserWorker(action) {

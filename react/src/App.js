@@ -8,7 +8,7 @@ import Components from './routes/router';
 const App = ({fetchUser}) => {
 	useEffect(() => {
 		fetchUser({messages: 'Redux is Connected'});
-	}, []);
+	}, [fetchUser]);
 	return (
 		<div className="app">
 			Go to <Link to="user">User</Link> Component
