@@ -9,6 +9,7 @@
 		"**/images": true,
 		"*/index.js": true,
 		"*/index.css": true,
+		// "*/App.module.css": true,
 
 		".gitignore": true,
 		".gitattributes": true,

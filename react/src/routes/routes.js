@@ -1,6 +1,6 @@
 import NotFound from '../Components/NotFound';
-import Users from '../Components/User/Users';
 import Home from '../Components/Home/Home';
+import Login from '../Components/Auth/Login';
 const routes = [
 	{
 		path: '/',
@@ -8,10 +8,11 @@ const routes = [
 		component: Home,
 	},
 	{
-		path: '/user',
+		path: '/auth/login',
 		exact: true,
-		component: Users,
+		component: Login,
 	},
+
 	{
 		component: NotFound,
 	},
